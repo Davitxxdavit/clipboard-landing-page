@@ -9,7 +9,7 @@ import instagram from '../../assets/icon-instagram.svg';
 const Footer = () => {
   return (
     <div className='footer'>
-      <img className='logo-main' src={logo} />
+      <img className='logo-main' src={logo} alt='#' />
       <div className='links'>
         <div className='links-item'>
              <p>FAQs</p>
@@ -22,9 +22,9 @@ const Footer = () => {
         <p>Install Guide</p>    
       </div>
       <div className='logos1'>
-        <img src={facebook} />
-        <img src={twitter} />
-        <img src={instagram} />
+        <img src={facebook} alt='#' />
+        <img src={twitter} alt='#' />
+        <img src={instagram} alt='#' />
       </div>
     </div>
   )

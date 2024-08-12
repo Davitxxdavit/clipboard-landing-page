@@ -17,27 +17,27 @@ const SectionSupercharge = () => {
       <p>We’ve got the tools to boost your productivity.</p>
       <div className='items'>
         <div className='item'>
-            <img src={logo1} />
+            <img src={logo1} alt='#' />
             <h3>Create blacklists</h3>
             <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </div>
         <div className='item'>
-            <img src={logo2} />
+            <img src={logo2} alt='#' />
             <h3>Plain text snippets</h3>
             <p>Remove unwanted formatting from copied text for a consistent look.</p>
         </div>
         <div className='item'>
-            <img src={logo3} />
+            <img src={logo3} alt='#' />
             <h3>Sneak preview</h3>
             <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
       </div>
       <div className='logos'>
-            <img src={google} />
-            <img src={imb} />
-            <img src={microsoft} />
-            <img src={hewlett} />
-            <img src={vector} />
+            <img src={google} alt='#' />
+            <img src={imb} alt='#' />
+            <img src={microsoft} alt='#' />
+            <img src={hewlett} alt='#' />
+            <img src={vector} alt='#' />
       </div>
     </div>
   )
