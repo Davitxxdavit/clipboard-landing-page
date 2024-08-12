@@ -1,0 +1,22 @@
+.section-clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    text-align: center;
+}
+
+
+.section-clipboard img{
+    width: 700px;
+}
+
+h2{
+color: #3d3f41; 
+}
+
+p{
+    color: #6e7172;
+    
+}
