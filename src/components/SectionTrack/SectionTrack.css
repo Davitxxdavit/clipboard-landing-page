@@ -16,12 +16,14 @@
 
 
 .track-first h2{
+    font-weight: 600;
     font-size: 2rem;
     margin-top: 100px;
    color: #3d3f41; 
 }
 
 .track-first p{
+    font-weight: 400;
    color: #6e7172;
 font-size: 1.2rem; 
 }
@@ -39,10 +41,12 @@ font-size: 1.2rem;
 }
 
 .track-second h3{
+    font-weight: 600;
     color: #3d3f41; 
 }
 
 .track-second p{
+    font-weight: 400;
     color: #6e7172;
 }
 
@@ -61,5 +65,91 @@ font-size: 1.2rem;
         gap: 50px;
         display: flex;
         justify-content: left;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+
+    .track-second{
+        gap: 30px;
+    }
+    .track-second img{
+        margin-left: -120px;
+        overflow: hidden;
+       
+    }
+
+    .track-second h3{
+        font-size: 1.4rem;
+    }
+    
+    .track-second p{
+        font-size: 1rem;
+    }
+
+    .content{
+        width: 300px;
+    }
+
+  }
+
+  @media screen and (max-width: 820px) {
+
+    *{
+        font-size: 15px;
+    }
+    .track-second img{
+        margin-left: -120px;
+        overflow: hidden;
+        width: 500px;
+    }
+
+    .track-first {
+        width: 570px;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .track-second img{
+  
+        margin-left: -200px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .track-second img{
+  
+        margin-left: -250px;
+    }
+
+    .track-first {
+        width: 350px;
+    }
+    
+
+    
+    .track-second{
+        max-width: 1480px;
+        display: flex;
+        flex-direction: column;
+    }   
+        
+    .track-second img{
+         width: 300px;
+         margin-left: 0;
+
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .track-first h2 {
+        font-size: 1.8rem;
+        margin-top: 100px;
+    }
+
+    .track-first p{
+        font-size: 1rem;
     }
   }

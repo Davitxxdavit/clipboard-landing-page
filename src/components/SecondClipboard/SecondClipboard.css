@@ -14,11 +14,34 @@
 }
 
 h2{
+    font-weight: 600;
     font-size: 2rem;
     color: #3d3f41; 
 }
 
 p{
+    font-weight: 400;
     color: #6e7172;
     font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .second-clipboard{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .second-clipboard{
+        width: 350px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

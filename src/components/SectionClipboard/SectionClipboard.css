@@ -14,9 +14,38 @@
 
 h2{
 color: #3d3f41; 
+font-weight: 600;
 }
 
 p{
     color: #6e7172;
-    
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .section-clipboard img{
+        width: 500px;
+    }
+
+    .section-clipboard{ 
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section-clipboard img{
+        width: 350px;
+    }
+
+    .section-clipboard{ 
+        width: 350px;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1rem;
+    }
 }
